@@ -1,0 +1,19 @@
+
+
+# single line comment
+@CFG_KEY_1@ = @CFG_VALUE_1@
+# comment between settings
+# which happens to be a multiline comment
+@CFG_KEY_2@ = @CFG_VALUE_2@ # and here's a trailing comment
+
+ # here's one with leading whitespace
+	# here's another with a leading tab
+
+#here's a key with no value
+someKey = 
+
+#here's a value with no key
+= someValue
+
+# here's a config kvp with no space between values and the equals sign
+@CFG_KEY_3@=@CFG_VALUE_3@
